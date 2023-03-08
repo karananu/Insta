@@ -1,11 +1,11 @@
 import { StyleSheet, View } from 'react-native'
-import LoveCalculator from './src'
-// import BmiCalculator from './src/index2'
+// import LoveCalculator from './src'
+import BmiCalculator from './src/index2'
 function App() {
   return (
     <View style={styles.container}>
-      <LoveCalculator />
-      {/* <BmiCalculator /> */}
+      {/* <LoveCalculator /> */}
+      <BmiCalculator />
     </View>
   )
 }
