@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "Insta",
-    "slug": "Insta",
+    "slug": "lovecalculator",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -25,6 +25,12 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "c954483d-4d72-4cff-9092-2a588ff2f50b"
+      }
+    },
+    "owner": "karanrana3095"
   }
 }
